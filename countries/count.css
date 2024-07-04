@@ -37,18 +37,28 @@ section:nth-of-type(7){
     background-image: url(./media/star.png), linear-gradient(180deg, red 40%, yellow 40%, yellow 70%, green 70%, green 70%);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 140px, 100%;
 }
 
 section:nth-of-type(8){
     background-image: linear-gradient(180deg, black 40%, red 40%, red 70%, yellow 70%, yellow 70%);
 }
 
-section:nth-of-type(9){
+section:last-of-type{
     background-image: 
     url(./media/yellowstar.png), 
-    radial-gradient(red, red);
+    url(./media/yellowstar.png), 
+    url(./media/yellowstar.png), 
+    url(./media/yellowstar.png), 
+    url(./media/yellowstar.png), 
+    url(./media/yellowstar.png), 
+    radial-gradient(red, red)
+    ;
+    
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 200px, 80px, 80px, 80px, 80px, 100%;
+    background-position: 50px 100px, 250px 30px, 350px 95px, 300px 180px, 270px 280px, 100;
+
 
   
 }
