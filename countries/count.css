@@ -10,7 +10,7 @@ section{
 }
 
 section:first-of-type{
-    background-image: linear-gradient(90deg, green 33%, white 33%, white 67%, green 67%);
+    background-image: linear-gradient(to right, green 33%, white 33%, white 67%, green 67%);
 }
 
 section:nth-of-type(2){
@@ -57,7 +57,7 @@ section:last-of-type{
     
     background-repeat: no-repeat;
     background-size: 200px, 80px, 80px, 80px, 80px, 100%;
-    background-position: 50px 100px, 250px 30px, 350px 95px, 300px 180px, 270px 280px, 100;
+    background-position: 50px 100px, 250px 30px, 350px 95px, 300px 180px, 270px 280px, 0;
 
 
   
